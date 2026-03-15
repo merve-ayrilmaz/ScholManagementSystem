@@ -46,6 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,11 +66,29 @@
     <Compile Include="FrmClub.Designer.cs">
       <DependentUpon>FrmClub.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGrade.Designer.cs">
+      <DependentUpon>FrmGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLessons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLessons.Designer.cs">
+      <DependentUpon>FrmLessons.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmStNotes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmStNotes.Designer.cs">
       <DependentUpon>FrmStNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudent.Designer.cs">
+      <DependentUpon>FrmStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmTeacher.cs">
       <SubType>Form</SubType>
@@ -78,8 +104,17 @@
     <EmbeddedResource Include="FrmClub.resx">
       <DependentUpon>FrmClub.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmGrade.resx">
+      <DependentUpon>FrmGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLessons.resx">
+      <DependentUpon>FrmLessons.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmStNotes.resx">
       <DependentUpon>FrmStNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudent.resx">
+      <DependentUpon>FrmStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTeacher.resx">
       <DependentUpon>FrmTeacher.cs</DependentUpon>
@@ -93,6 +128,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

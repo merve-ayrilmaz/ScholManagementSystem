@@ -32,8 +32,15 @@ namespace Proje_BonusSchool
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FrmTeacher teacher = new FrmTeacher();
-            teacher.Show();
+            teacher.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

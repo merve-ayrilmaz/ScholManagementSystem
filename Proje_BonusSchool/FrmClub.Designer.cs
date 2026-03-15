@@ -114,9 +114,10 @@
             this.btnList.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnList.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnList.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnList.Location = new System.Drawing.Point(146, 260);
             this.btnList.Name = "btnList";
-            this.btnList.Size = new System.Drawing.Size(127, 50);
+            this.btnList.Size = new System.Drawing.Size(151, 50);
             this.btnList.TabIndex = 6;
             this.btnList.Text = "LIST";
             this.btnList.UseVisualStyleBackColor = false;
@@ -128,9 +129,10 @@
             this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnUpdate.Location = new System.Drawing.Point(146, 325);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(127, 50);
+            this.btnUpdate.Size = new System.Drawing.Size(151, 50);
             this.btnUpdate.TabIndex = 7;
             this.btnUpdate.Text = "UPTADE";
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -142,9 +144,10 @@
             this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Corbel", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnDelete.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnDelete.Location = new System.Drawing.Point(414, 326);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(127, 50);
+            this.btnDelete.Size = new System.Drawing.Size(151, 50);
             this.btnDelete.TabIndex = 8;
             this.btnDelete.Text = "DELETE";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -156,9 +159,10 @@
             this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Corbel", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAdd.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnAdd.Location = new System.Drawing.Point(414, 261);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(127, 50);
+            this.btnAdd.Size = new System.Drawing.Size(151, 50);
             this.btnAdd.TabIndex = 9;
             this.btnAdd.Text = "ADD";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -223,7 +227,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.ClientSize = new System.Drawing.Size(614, 396);
+            this.ClientSize = new System.Drawing.Size(616, 396);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -242,6 +246,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.HelpButton = true;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmClub";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

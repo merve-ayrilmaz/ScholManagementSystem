@@ -54,7 +54,7 @@ namespace Proje_BonusSchool
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
         }
 
         private void pictureBox5_MouseHover(object sender, EventArgs e)

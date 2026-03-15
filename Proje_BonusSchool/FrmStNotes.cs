@@ -29,10 +29,10 @@ namespace Proje_BonusSchool
             TblNotes.Exam2,
             TblNotes.Exam3,
             TblNotes.Project,
-            TblNotes.Avarge,
-            TblNotes.Status
+            TblNotes.Average,
+            CASE WHEN TblNotes.Status = 1 THEN 'True' ELSE 'False' END AS Status
         FROM TblNotes
-        INNER JOIN TblLessons ON TblNotes.LessonId = TblLessons.LessonID
+        INNER JOIN TblLessons ON TblNotes.LessonId = TblLessons.ID
         INNER JOIN TblStudents ON TblNotes.StId = TblStudents.StID
         WHERE TblNotes.StId = @p1", baglanti);
 

@@ -19,8 +19,39 @@ namespace Proje_BonusSchool
 
         private void button5_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FrmClub club = new FrmClub();
-            club.Show();
+            club.ShowDialog();
+            this.Show();
+        }
+
+        private void btnLesson_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmLessons Lesson = new FrmLessons();
+            Lesson.ShowDialog();
+            this.Show();
+        }
+
+        private void btnStudent_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmStudent student = new FrmStudent();
+            student.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmGrade grade = new FrmGrade();
+            grade.ShowDialog();
+            this.Show();
         }
     }
 }
